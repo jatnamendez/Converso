@@ -5,6 +5,7 @@ const productoSchema = new Schema(
     {
         id:{type:Number},
         image:{type:String},
+        title:{type:String},
         price: {type:Number},
         category:{type:String},
         style:{type:String},
