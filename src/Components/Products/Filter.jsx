@@ -46,7 +46,7 @@ export const Filter = ({ handleFilter }) => {
   };
 
   return (
-    <div>
+    <div className="filter">
       <label htmlFor="price">Price Range:</label>
       <select id="price" onChange={handlePriceFilter} value={selectedPrice}>
         <option value="">All</option>
